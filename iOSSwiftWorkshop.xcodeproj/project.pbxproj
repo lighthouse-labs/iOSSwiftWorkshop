@@ -12,6 +12,7 @@
 		12FFE67F1D146C24009419AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE67D1D146C24009419AF /* Main.storyboard */; };
 		12FFE6811D146C24009419AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE6801D146C24009419AF /* Assets.xcassets */; };
 		12FFE6841D146C24009419AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE6821D146C24009419AF /* LaunchScreen.storyboard */; };
+		FD3E532EB131A58BC0362D6C /* Pods_iOSSwiftWorkshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD14E0F8AC58859A61FBE20 /* Pods_iOSSwiftWorkshop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,10 @@
 		12FFE6801D146C24009419AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FFE6831D146C24009419AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12FFE6851D146C24009419AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FFE68B1D1472FC009419AF /* Part1-Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Part1-Playground.playground"; sourceTree = SOURCE_ROOT; };
+		3CD14E0F8AC58859A61FBE20 /* Pods_iOSSwiftWorkshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSwiftWorkshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6C9013B9D4DB5DEF02371C /* Pods-iOSSwiftWorkshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSwiftWorkshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSwiftWorkshop/Pods-iOSSwiftWorkshop.debug.xcconfig"; sourceTree = "<group>"; };
+		B5927615BA6145DFE0FD163E /* Pods-iOSSwiftWorkshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSwiftWorkshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSwiftWorkshop/Pods-iOSSwiftWorkshop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3E532EB131A58BC0362D6C /* Pods_iOSSwiftWorkshop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083114210D1E5383713AA379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF6C9013B9D4DB5DEF02371C /* Pods-iOSSwiftWorkshop.debug.xcconfig */,
+				B5927615BA6145DFE0FD163E /* Pods-iOSSwiftWorkshop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		12FFE66D1D146C24009419AF = {
 			isa = PBXGroup;
 			children = (
+				12FFE68B1D1472FC009419AF /* Part1-Playground.playground */,
 				12FFE6781D146C24009419AF /* iOSSwiftWorkshop */,
 				12FFE6771D146C24009419AF /* Products */,
+				083114210D1E5383713AA379 /* Pods */,
+				468FD33EE926991F489FDC3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +82,14 @@
 			path = iOSSwiftWorkshop;
 			sourceTree = "<group>";
 		};
+		468FD33EE926991F489FDC3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CD14E0F8AC58859A61FBE20 /* Pods_iOSSwiftWorkshop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12FFE6881D146C24009419AF /* Build configuration list for PBXNativeTarget "iOSSwiftWorkshop" */;
 			buildPhases = (
+				271C88F407DB6A604CB5AECB /* [CP] Check Pods Manifest.lock */,
 				12FFE6721D146C24009419AF /* Sources */,
 				12FFE6731D146C24009419AF /* Frameworks */,
 				12FFE6741D146C24009419AF /* Resources */,
+				C9FD8217A97A3AD4350599B3 /* [CP] Embed Pods Frameworks */,
+				6C52A2055A4CD9750C92EEEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		271C88F407DB6A604CB5AECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C52A2055A4CD9750C92EEEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSSwiftWorkshop/Pods-iOSSwiftWorkshop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FD8217A97A3AD4350599B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSSwiftWorkshop/Pods-iOSSwiftWorkshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12FFE6721D146C24009419AF /* Sources */ = {
@@ -249,6 +326,7 @@
 		};
 		12FFE6891D146C24009419AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6C9013B9D4DB5DEF02371C /* Pods-iOSSwiftWorkshop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSSwiftWorkshop/Info.plist;
@@ -260,6 +338,7 @@
 		};
 		12FFE68A1D146C24009419AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5927615BA6145DFE0FD163E /* Pods-iOSSwiftWorkshop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSSwiftWorkshop/Info.plist;
@@ -288,6 +367,7 @@
 				12FFE68A1D146C24009419AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
