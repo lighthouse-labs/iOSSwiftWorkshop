@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +23,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func pressedButton(sender: UIButton) {
+        
+        let image1 = UIImage(named: "ed")
+        
+        imageView.image = image1
+        
+        
+        
+    }
+    
 
 
 }

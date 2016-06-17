@@ -9,9 +9,16 @@
 /* Begin PBXBuildFile section */
 		12FFE67A1D146C24009419AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFE6791D146C24009419AF /* AppDelegate.swift */; };
 		12FFE67C1D146C24009419AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFE67B1D146C24009419AF /* ViewController.swift */; };
-		12FFE67F1D146C24009419AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE67D1D146C24009419AF /* Main.storyboard */; };
 		12FFE6811D146C24009419AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE6801D146C24009419AF /* Assets.xcassets */; };
 		12FFE6841D146C24009419AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE6821D146C24009419AF /* LaunchScreen.storyboard */; };
+		12FFE68E1D14921D009419AF /* Part2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE68D1D14921D009419AF /* Part2.storyboard */; };
+		12FFE6911D14AC8F009419AF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFE6901D14AC8F009419AF /* TableViewController.swift */; };
+		12FFE6941D14ACF4009419AF /* Part4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE6931D14ACF4009419AF /* Part4.storyboard */; };
+		12FFE6971D14B599009419AF /* Part5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FFE6961D14B599009419AF /* Part5.storyboard */; };
+		12FFE6991D14B5BE009419AF /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFE6981D14B5BE009419AF /* MessagesViewController.swift */; };
+		12FFE69B1D14B600009419AF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFE69A1D14B600009419AF /* Message.swift */; };
+		12FFE69D1D14B699009419AF /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFE69C1D14B699009419AF /* MessageCell.swift */; };
+		12FFE69F1D14BF10009419AF /* AddMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFE69E1D14BF10009419AF /* AddMessageViewController.swift */; };
 		FD3E532EB131A58BC0362D6C /* Pods_iOSSwiftWorkshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD14E0F8AC58859A61FBE20 /* Pods_iOSSwiftWorkshop.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +26,19 @@
 		12FFE6761D146C24009419AF /* iOSSwiftWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSwiftWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FFE6791D146C24009419AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12FFE67B1D146C24009419AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12FFE67E1D146C24009419AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12FFE6801D146C24009419AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FFE6831D146C24009419AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12FFE6851D146C24009419AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12FFE68B1D1472FC009419AF /* Part1-Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Part1-Playground.playground"; sourceTree = SOURCE_ROOT; };
+		12FFE68D1D14921D009419AF /* Part2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Part2.storyboard; sourceTree = "<group>"; };
+		12FFE68F1D14AC38009419AF /* Part3-Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Part3-Playground.playground"; sourceTree = "<group>"; };
+		12FFE6901D14AC8F009419AF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = iOSSwiftWorkshop/TableViewController.swift; sourceTree = "<group>"; };
+		12FFE6931D14ACF4009419AF /* Part4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Part4.storyboard; sourceTree = "<group>"; };
+		12FFE6961D14B599009419AF /* Part5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Part5.storyboard; sourceTree = "<group>"; };
+		12FFE6981D14B5BE009419AF /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		12FFE69A1D14B600009419AF /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		12FFE69C1D14B699009419AF /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		12FFE69E1D14BF10009419AF /* AddMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMessageViewController.swift; sourceTree = "<group>"; };
 		3CD14E0F8AC58859A61FBE20 /* Pods_iOSSwiftWorkshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSwiftWorkshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6C9013B9D4DB5DEF02371C /* Pods-iOSSwiftWorkshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSwiftWorkshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSwiftWorkshop/Pods-iOSSwiftWorkshop.debug.xcconfig"; sourceTree = "<group>"; };
 		B5927615BA6145DFE0FD163E /* Pods-iOSSwiftWorkshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSwiftWorkshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSwiftWorkshop/Pods-iOSSwiftWorkshop.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				12FFE68B1D1472FC009419AF /* Part1-Playground.playground */,
-				12FFE6781D146C24009419AF /* iOSSwiftWorkshop */,
+				12FFE6781D146C24009419AF /* Part 2 */,
+				12FFE68F1D14AC38009419AF /* Part3-Playground.playground */,
+				12FFE6921D14AC97009419AF /* Part 4 */,
+				12FFE6951D14B4B9009419AF /* Part 5 */,
 				12FFE6771D146C24009419AF /* Products */,
 				083114210D1E5383713AA379 /* Pods */,
 				468FD33EE926991F489FDC3D /* Frameworks */,
@@ -69,17 +87,47 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12FFE6781D146C24009419AF /* iOSSwiftWorkshop */ = {
+		12FFE6781D146C24009419AF /* Part 2 */ = {
+			isa = PBXGroup;
+			children = (
+				12FFE68C1D1491AD009419AF /* Supporting FIles */,
+				12FFE67B1D146C24009419AF /* ViewController.swift */,
+				12FFE68D1D14921D009419AF /* Part2.storyboard */,
+				12FFE6801D146C24009419AF /* Assets.xcassets */,
+			);
+			name = "Part 2";
+			path = iOSSwiftWorkshop;
+			sourceTree = "<group>";
+		};
+		12FFE68C1D1491AD009419AF /* Supporting FIles */ = {
 			isa = PBXGroup;
 			children = (
 				12FFE6791D146C24009419AF /* AppDelegate.swift */,
-				12FFE67B1D146C24009419AF /* ViewController.swift */,
-				12FFE67D1D146C24009419AF /* Main.storyboard */,
-				12FFE6801D146C24009419AF /* Assets.xcassets */,
 				12FFE6821D146C24009419AF /* LaunchScreen.storyboard */,
 				12FFE6851D146C24009419AF /* Info.plist */,
 			);
-			path = iOSSwiftWorkshop;
+			name = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		12FFE6921D14AC97009419AF /* Part 4 */ = {
+			isa = PBXGroup;
+			children = (
+				12FFE6901D14AC8F009419AF /* TableViewController.swift */,
+				12FFE6931D14ACF4009419AF /* Part4.storyboard */,
+			);
+			name = "Part 4";
+			sourceTree = "<group>";
+		};
+		12FFE6951D14B4B9009419AF /* Part 5 */ = {
+			isa = PBXGroup;
+			children = (
+				12FFE6981D14B5BE009419AF /* MessagesViewController.swift */,
+				12FFE69E1D14BF10009419AF /* AddMessageViewController.swift */,
+				12FFE69C1D14B699009419AF /* MessageCell.swift */,
+				12FFE69A1D14B600009419AF /* Message.swift */,
+				12FFE6961D14B599009419AF /* Part5.storyboard */,
+			);
+			name = "Part 5";
 			sourceTree = "<group>";
 		};
 		468FD33EE926991F489FDC3D /* Frameworks */ = {
@@ -151,9 +199,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FFE68E1D14921D009419AF /* Part2.storyboard in Resources */,
 				12FFE6841D146C24009419AF /* LaunchScreen.storyboard in Resources */,
+				12FFE6971D14B599009419AF /* Part5.storyboard in Resources */,
+				12FFE6941D14ACF4009419AF /* Part4.storyboard in Resources */,
 				12FFE6811D146C24009419AF /* Assets.xcassets in Resources */,
-				12FFE67F1D146C24009419AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,21 +263,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FFE67C1D146C24009419AF /* ViewController.swift in Sources */,
+				12FFE6911D14AC8F009419AF /* TableViewController.swift in Sources */,
+				12FFE69B1D14B600009419AF /* Message.swift in Sources */,
+				12FFE69F1D14BF10009419AF /* AddMessageViewController.swift in Sources */,
+				12FFE6991D14B5BE009419AF /* MessagesViewController.swift in Sources */,
 				12FFE67A1D146C24009419AF /* AppDelegate.swift in Sources */,
+				12FFE69D1D14B699009419AF /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12FFE67D1D146C24009419AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12FFE67E1D146C24009419AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12FFE6821D146C24009419AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
