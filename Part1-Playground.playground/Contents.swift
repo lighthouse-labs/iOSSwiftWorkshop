@@ -13,6 +13,13 @@ var students = " students"
 greetings + students
 
 
+if 1 == 2 {
+    print ("This is always true")
+}else {
+    print ("This is false")
+}
+
+
 // 1. Create a variable called name. It is of String Type. Put your name as the value. Print out name to check that it is working
 
 
@@ -34,3 +41,17 @@ greetings + students
 
 
 // 5. Create a variable called students. Set it to be the Interger 2. Divide grade by students and assign it to a variable
+
+
+
+
+
+
+
+
+// BONUS
+
+
+// else if
+
+// 1. Look up switch (google). Use a use to

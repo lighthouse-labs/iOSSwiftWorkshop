@@ -12,13 +12,12 @@ import Parse
 
 class AddMessageViewController :UIViewController {
     
-    @IBOutlet weak var messageTextField: UITextField!
     
     @IBAction func saveButtonPressed(sender: UIBarButtonItem) {
         
         let message = Message()
-        message.text = messageTextField.text!
-        message.username = usernameTextField.text!
+//        message.text =
+//        message.username =
         
         message.saveInBackgroundWithBlock { (success, error) in
             if success {

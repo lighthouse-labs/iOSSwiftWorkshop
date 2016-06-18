@@ -35,6 +35,7 @@ class MessagesViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("messageCell", forIndexPath: indexPath) as! MessageCell
 
         let message = messages[indexPath.row]
+        
         cell.textMessageLabel.text = message.text
         cell.usernameLabel.text = message.username
         message.userProfile.getDataInBackgroundWithBlock { (data, error) in

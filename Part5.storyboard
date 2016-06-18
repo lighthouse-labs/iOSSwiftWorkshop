@@ -23,7 +23,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GB6-SJ-LHl">
-                                            <rect key="frame" x="50" y="8" width="85" height="21"/>
+                                            <rect key="frame" x="52" y="8" width="85" height="21"/>
                                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -36,19 +36,19 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOW-ln-jo2">
-                                            <rect key="frame" x="50" y="30" width="315" height="21"/>
+                                            <rect key="frame" x="52" y="30" width="313" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="dOW-ln-jo2" firstAttribute="leading" secondItem="tmI-jj-Fhz" secondAttribute="trailing" constant="2" id="EFE-rN-uYQ"/>
+                                        <constraint firstItem="dOW-ln-jo2" firstAttribute="leading" secondItem="tmI-jj-Fhz" secondAttribute="trailing" constant="4" id="EFE-rN-uYQ"/>
                                         <constraint firstItem="GB6-SJ-LHl" firstAttribute="top" secondItem="cd5-8g-TmM" secondAttribute="topMargin" id="IJv-Pj-3Of"/>
                                         <constraint firstItem="tmI-jj-Fhz" firstAttribute="leading" secondItem="cd5-8g-TmM" secondAttribute="leading" id="ZDe-Zs-XdU"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="dOW-ln-jo2" secondAttribute="trailing" constant="2" id="bAI-Fy-TF7"/>
                                         <constraint firstItem="dOW-ln-jo2" firstAttribute="top" secondItem="GB6-SJ-LHl" secondAttribute="bottom" constant="1" id="gv3-HA-eHr"/>
-                                        <constraint firstItem="GB6-SJ-LHl" firstAttribute="leading" secondItem="tmI-jj-Fhz" secondAttribute="trailing" constant="2" id="sb7-bY-kV7"/>
+                                        <constraint firstItem="GB6-SJ-LHl" firstAttribute="leading" secondItem="tmI-jj-Fhz" secondAttribute="trailing" constant="4" id="sb7-bY-kV7"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="dOW-ln-jo2" secondAttribute="bottom" constant="2.5" id="sye-Mr-ME0"/>
                                         <constraint firstItem="tmI-jj-Fhz" firstAttribute="top" secondItem="cd5-8g-TmM" secondAttribute="top" constant="8" id="xYO-XY-tY8"/>
                                     </constraints>

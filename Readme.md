@@ -1,8 +1,19 @@
 ## Part 1
 
-See 
+Download the Zip
+
+![pick_storyboard](Images/download_zip.png)
+
+Go to Part1-Playgrounds.playground  
+
+![pick_storyboard](Images/part1_playground.png)
+
+
+Complete the questions in the playground
 
 ## Part 2
+
+You will now be working with files in the Part 2 folder.  
 
 - Add an ImageView into your screen  
 - Add a Button into your screen  
@@ -19,18 +30,19 @@ See
 
 ## Part 3
 
-s
+Go to Part3-Playgrounds.playground  
+
+Complete the questions in the playground
 
 ## Part 4
 
-Switch to Part 4 storyboard. Load image.  XXXXXXXX
-XXXXXX
+You will now be working with files in the Part 4 folder.  
 
-XX
-XX
-X
+Also, to make your app load the storyboard for Part 4, Switch the main interface to Part 4's storyboard. 
 
-![pick_storyboard](images/pick_storyboard.png)
+![pick_storyboard](Images/pick_storyboard.png)
+
+To the TableViewController.swift file:  
 
 - Make an array of 5 Strings  
 - Change tableView's method for numberOfRowsInSection to return 5  
@@ -42,10 +54,18 @@ X
 
 ## Part 5
 
-Switch to Part 5 storyboard. Load image.  
+You will now be working with files in the Part 5 folder.  
 
+Also, to make your app load the storyboard for Part 5, Switch the main interface to Part 5's storyboard. 
 
+![pick_storyboard](Images/pick_storyboard.png) 
 
+To the AddMessageViewController.swift file:  
+
+- Add a Textfield to get your username  
+- Add a Textfield to get the message text  
+- Save the message by setting a username and a text.
+- Check that your message appears in the Table when you run the app!!
 
 #### Bonus Challenge:
 - Add an ImageView to your Screen. 
