@@ -4,7 +4,9 @@ Download the Zip
 
 ![pick_storyboard](Images/download_zip.png)
 
-Go to Part1-Playgrounds.playground  
+UnZip the folder, usually by double-clicking and open up the "iOSSwiftWorkshop.xcworkspace" file.
+
+Go to Part1-Playground.playground  
 
 ![pick_storyboard](Images/part1_playground.png)
 
@@ -14,6 +16,8 @@ Complete the questions in the playground
 ## Part 2
 
 You will now be working with files in the Part 2 folder.  
+
+To the ViewController.swift file:  
 
 - Add an ImageView into your screen  
 - Add a Button into your screen  
@@ -30,7 +34,7 @@ You will now be working with files in the Part 2 folder.
 
 ## Part 3
 
-Go to Part3-Playgrounds.playground  
+Go to Part3-Playground.playground  
 
 Complete the questions in the playground
 
