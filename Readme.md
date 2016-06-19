@@ -21,10 +21,10 @@ To the ViewController.swift file:
 
 - Add an ImageView into your screen  
 - Add a Button into your screen  
-- Connect up the ImageView as an IBOutlet (control + drag)  
-- Connect up the Button as an IBAction  
+- Connect up the ImageView (control + drag) to code
+- Connect up the Button to code
 - Add an image to the Assets.xassets folder  
-- Add a UIImage property inside your IBAction  
+- Add a UIImage property inside your code for the button Action 
 - Set your imageView.image to be that image
 
 #### Bonus Challenges:  

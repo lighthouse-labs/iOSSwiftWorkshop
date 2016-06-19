@@ -4,14 +4,6 @@ import UIKit
 
 var str = "Hello, playground"
 
-var greetings:String
-
-greetings = "Hello"
-
-var students = " students"
-
-greetings + students
-
 
 
 

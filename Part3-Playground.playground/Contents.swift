@@ -4,6 +4,7 @@ import UIKit
 
 var str = "Hello, playground"
 
+
 // 1. Write a func called hello. Whenever the function is called it prints the string hello
 
 

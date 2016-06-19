@@ -19,9 +19,10 @@ class AddMessageViewController :UIViewController {
 //        message.text =
 //        message.username =
         
-        message.saveInBackgroundWithBlock { (success, error) in
+        message.saveInBackgroundWithBlock {[weak self] (success, error) in
             if success {
                 print("Yay! successfully saved message")
+                self?.navigationController?.popViewControllerAnimated(true)
             }
         }
         
