@@ -50,7 +50,7 @@ Also, to make your app load the storyboard for Part 4, Switch the main interface
 To the TableViewController.swift file:  
 
 - Make an array of 5 Strings  
-- Change tableView's method for numberOfRowsInSection to return 5  
+- Change tableView's method for numberOfRowsInSection to return the count of strings in the array you just created
 - Add to tableView's method for cellForRowAtIndexPath to get the appropriate string based on what indexPath the row in the table should display  
 - Se the cell.textLabel's text to be the approriate string  
 
