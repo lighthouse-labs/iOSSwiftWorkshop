@@ -4,7 +4,8 @@ Download the Zip
 
 ![pick_storyboard](Images/download_zip.png)
 
-UnZip the folder, usually by double-clicking and open up the "iOSSwiftWorkshop.xcworkspace" file.
+- UnZip the folder
+- Then double-click and open up the "iOSSwiftWorkshop.xcworkspace" file.
 
 Go to Part1-Playground.playground  
 
