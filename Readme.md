@@ -24,14 +24,14 @@ To the Part2.storyboard file and perform the following on the View Controller sc
 - Add a Button into your screen  
 - Connect up the ImageView (control + drag) to code
 - Connect up the Button to code
-- Add an image to the Assets.xassets folder  
-- Add a UIImage property inside your code for the button Action 
-- Set your imageView.image to be that image
+- Add an image to the Assets.xcassets folder  
+- Add a UIImage property inside your code and initialize it with the image you added in the Assets.xcassets folder ex: UIImage(named: "name_of_your_image")
 
 #### Bonus Challenges:  
 - Change the text on the Button to say "Show Image" (Use storyboard)  
+- Add an action from the button from on storyboard to code and call it showImage
 - Change the color of the Button to Red (Use storyboard)  
-
+- When the button get's pressed it should assign the UIImage property to the UIImageView's image property. ex: yourImageView.image = anImage
 
 ## Part 3
 
