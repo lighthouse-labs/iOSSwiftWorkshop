@@ -65,7 +65,7 @@ Also, to make your app load the storyboard for Part 5, Switch the main interface
 
 ![pick_storyboard](Images/pick_storyboard.png) 
 
-To the AddMessageViewController.swift file:  
+To the Add Message View Controller scene file:  
 
 - Add a Textfield to get your username  
 - Add a Textfield to get the message text  
