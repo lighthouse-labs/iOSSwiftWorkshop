@@ -18,7 +18,7 @@ Complete the questions in the playground
 
 You will now be working with files in the Part 2 folder.  
 
-To the ViewController.swift file:  
+To the Part2.storyboard file and perform the following on the View Controller scene:  
 
 - Add an ImageView into your screen  
 - Add a Button into your screen  
